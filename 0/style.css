@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@font-face {
+    font-family:poppins ;
+    src: url(poppins-black-webfont.woff2);
+}
+body{
+    background-color: #287050;
+    max-width: 1500px;
+    margin: auto;
+    padding:10px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: poppins;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+a{
+    display: inline-block;
+    margin: 20px; ;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+a:hover{
+    color:#A0F2B6;
+}
